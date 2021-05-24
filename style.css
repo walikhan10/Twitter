@@ -1,0 +1,179 @@
+body {
+  background-color: #1da1f2;
+}
+
+.title {
+  color: white !important;
+  position: relative;
+  top: 20px;
+  right: -470px;
+  font: italic 1.2em "Fira Sans", serif;
+  font-size: 120px !important;
+}
+
+.unlikeButton {
+  background: #ff3380 !important;
+  border-color: #ff3380 !important;
+  color: #ffffff !important;
+}
+
+.likeButton {
+}
+
+#re {
+  color: blue;
+}
+
+.save {
+  margin: 10px 0px;
+  position: relative;
+  right: -440px;
+}
+
+.replyButton {
+  float: right;
+  margin: 15px 4px 0px 0px;
+}
+
+#responses {
+  width: 50%;
+  float: right;
+}
+
+#post {
+  margin: 60px 0px 0px 50%;
+  padding: 10px 30px;
+  font-size: 20px;
+  position: realtive;
+  left: -500px;
+  top: -100px;
+  background-color: #13294b;
+  color: white !important;
+  border: hidden !important;
+}
+
+#create {
+  display: block;
+  float: right;
+  margin: 14px 30px 30px 60px;
+  padding: 5px 20px;
+  position: relative;
+  right: 530px;
+  top: -100px;
+  background-color: white;
+  color: black !important;
+}
+
+.delete,
+.edit {
+  float: right;
+  position: relative;
+  top: -15px;
+  margin-left: 8px;
+}
+
+#newInput {
+  width: 80%;
+  position: relative;
+  top: -100px;
+  right: 550px;
+  float: right;
+  border: black;
+  display: block;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 15px 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  color: black;
+}
+
+#responses textarea {
+  display: block;
+  background-color: #d6ebf2;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 5px 10px;
+  width: 95%;
+  margin-top: 15px;
+  color: black;
+}
+
+textarea:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px rgb(174, 175, 179);
+}
+
+#newtweet {
+  width: 40%;
+  float: right;
+}
+
+.tweet {
+  width: 800px;
+  height: auto;
+  font-size: 15px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color: black;
+  word-break: break-word;
+  position: relative;
+  top: 170px;
+  right: -140px;
+  box-shadow: 10px 10px;
+}
+
+.name {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  display: inline-block;
+}
+
+.retweetText {
+  border-radius: 20px;
+  padding: 10px 10px 15px 10px;
+  color: #13294b;
+  background-color: #d6ebf2;
+}
+
+.likes,
+.retweets {
+  color: rgb(174, 175, 179);
+  font-size: 13px;
+}
+
+.inline {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.inlineButton {
+  margin: 15px 26px 0px 6px;
+}
+
+.retweetButton {
+  margin-left: 2px;
+  border: none !important;
+  position: relative;
+  top: 16px;
+  height: 27px !important;
+}
+
+button {
+  cursor: pointer;
+  position: relative;
+  color: grey;
+  border-radius: 30px;
+  text-decoration: none;
+  background: transparent;
+  padding: 5px 10px;
+  border: 2px solid rgb(174, 175, 179) !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
